@@ -27,3 +27,5 @@ These things have been added:
 
 - The homepage now features a list of pages.
 - Docker support for development.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
