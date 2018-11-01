@@ -14,3 +14,16 @@ This is a simplified version of the default Gatsby boilerplate.<br>
 See <a href='https://github.com/gatsbyjs/gatsby-starter-default'>gatsbyjs/gatsby-starter-default</a>.
 </em>
 </p>
+
+---
+
+This is the same as the default starter pack, except with these omissions:
+
+- CSS is blank.
+- Extraneous config files have been removed.
+- `gatsby-plugin-offline` was removed.
+
+These things have been added:
+
+- The homepage now features a list of pages.
+- Docker support for development.
