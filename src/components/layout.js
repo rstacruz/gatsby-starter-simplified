@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import 'sanitize.css'
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -24,7 +26,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <h1>{data.site.siteMetadata.title}</h1>
+        {/*<h1>{data.site.siteMetadata.title}</h1>*/}
         <div>{children}</div>
       </>
     )}
