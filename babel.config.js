@@ -4,7 +4,8 @@ const IS_TEST =
 
 module.exports = {
   presets: [
-    '@babel/preset-flow',
+    // Add this if you want flow
+    // '@babel/preset-flow',
     [
       '@babel/preset-env',
       {
@@ -41,6 +42,7 @@ module.exports = {
         regenerator: true,
       },
     ],
+    // Add this if you want styled-jsx
     // [
     //   'styled-jsx/babel',
     //   {
