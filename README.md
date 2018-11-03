@@ -19,20 +19,11 @@ See <a href='https://github.com/gatsbyjs/gatsby-starter-default'>gatsbyjs/gatsby
 
 ## Quick start
 
-1. **Create a Gatsby site.** <br>
-   Use the Gatsby CLI to create a new site, specifying this starter.
+ Use the Gatsby CLI to create a new site, specifying this starter. After this, See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
 
-   ```sh
-   npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
-   ```
-
-2. **Read developer notes** <br>
-   See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
-
-   ```sh
-   cd my-project-name
-   less CONTRIBUTING.md
-   ```
+ ```sh
+ npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
+ ```
 
 ## About this boilerplate
 
