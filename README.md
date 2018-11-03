@@ -17,7 +17,22 @@ This is a simplified version of the default Gatsby boilerplate.<br>
 See <a href='https://github.com/gatsbyjs/gatsby-starter-default'>gatsbyjs/gatsby-starter-default</a>.
 </p>
 
----
+## Quick start
+
+1. **Create a Gatsby site.** <br> Use the Gatsby CLI to create a new site, specifying this starter.
+
+```sh
+npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
+```
+
+2. **Read developer notes** <br> See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
+
+```sh
+cd my-project-name
+less CONTRIBUTING.md
+```
+
+## About this boilerplate
 
 This is the same as the default starter pack, except with these omissions:
 
