@@ -4,7 +4,7 @@ const THEME_COLOR = '#101018'
 
 module.exports = {
   siteMetadata: {
-    title: TITLE,
+    title: TITLE
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,8 +12,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     {
       resolve: 'gatsby-plugin-manifest',
@@ -24,8 +24,8 @@ module.exports = {
         background_color: THEME_COLOR,
         theme_color: THEME_COLOR,
         display: 'minimal-ui',
-        icon: 'src/images/icon.png',
-      },
-    },
-  ],
+        icon: 'src/images/icon.png'
+      }
+    }
+  ]
 }
