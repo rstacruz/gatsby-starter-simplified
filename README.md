@@ -19,11 +19,32 @@ See <a href='https://github.com/gatsbyjs/gatsby-starter-default'>gatsbyjs/gatsby
 
 ## Quick start
 
- Use the Gatsby CLI to create a new site, specifying this starter. After this, See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
+Use the Gatsby CLI to create a new site, specifying this starter. After this, See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
 
- ```sh
- npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
- ```
+```sh
+npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
+```
+
+## Simplified starter
+
+These are the files you'll find here. They're a reduced subset of the original _gatsby-starter-default_ package.
+
+| File                                                   | Description                 |
+| ------------------------------------------------------ | --------------------------- |
+| **src/**                                               |                             |
+| &mdash; **components/**                                |                             |
+| &mdash; &mdash; [Layout.js](/src/components/Layout.js) | Layout component            |
+| &mdash; **images/**                                    |                             |
+| &mdash; &mdash; [icon.png](/src/images/icon.png)       | Site icon                   |
+| &mdash; **pages/**                                     |                             |
+| &mdash; &mdash; [404.js](/src/pages/404.js)            | Not found page              |
+| &mdash; &mdash; [index.js](/src/pages/index.js)        | Home page                   |
+|                                                        |                             |
+| [gatsby-config.js](/gatsby-config.js)                  | Gatsby config               |
+| [package.json](/package.json)                          | Package manifest            |
+|                                                        |                             |
+| [Dockerfile](/Dockerfile)                              | Docker file for development |
+| [docker-compose.yml](/docker-compose.yml)              | Docker file for development |
 
 ## About this boilerplate
 

@@ -1,26 +1,30 @@
+const TITLE = 'New Site'
+const SHORT_TITLE = 'My new web site'
+const THEME_COLOR = '#101018'
+
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: TITLE,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: TITLE,
+        short_name: SHORT_TITLE,
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: THEME_COLOR,
+        theme_color: THEME_COLOR,
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/icon.png',
       },
     },
   ],
