@@ -56,8 +56,6 @@ These are the files you'll find here. They're a reduced subset of the original _
 
 - [gatsby-config.js](/gatsby-config.js) - Gatsby config
 - [package.json](/package.json) - Package manifest
-- [Dockerfile](/Dockerfile) - Docker file for development
-- [docker-compose.yml](/docker-compose.yml) - Docker file for development
 
 ## About this boilerplate
 
@@ -72,7 +70,6 @@ This is the same as the default starter pack, except with these omissions:
 These things have been added:
 
 - Normalize/reset CSS ([sanitize.css](https://yarn.pm/sanitize.css)) has been added.
-- Docker support for development (see [developer notes](CONTRIBUTING.md)) has been added.
 
 Some of these omissions (and other features) can be added back as you need them:
 
