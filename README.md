@@ -22,8 +22,18 @@ See <a href='https://github.com/gatsbyjs/gatsby-starter-default'>gatsbyjs/gatsby
 Use the Gatsby CLI to create a new site, specifying this starter. After this, See [CONTRIBUTING.md](CONTRIBUTING.md) on info on how to start a server.
 
 ```sh
+# Using the official Gatsby tool
 npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
+#              ^-------------^
 ```
+
+```sh
+# ...or using degit
+npx degit rstacruz/gatsby-starter-simplified my-project-name
+#                                            ^-------------^
+```
+
+_([degit](https://yarn.pm/degit) automates starting projects using templates in GitHub.)_
 
 ## Simplified starter
 
