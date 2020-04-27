@@ -24,13 +24,11 @@ Use the Gatsby CLI to create a new site, specifying this starter. After this, Se
 ```sh
 # Using the official Gatsby tool
 npx gatsby new my-project-name https://github.com/rstacruz/gatsby-starter-simplified
-#              ^-------------^
 ```
 
 ```sh
 # ...or using degit
 npx degit rstacruz/gatsby-starter-simplified my-project-name
-#                                            ^-------------^
 ```
 
 _([degit](https://yarn.pm/degit) automates starting projects using templates in GitHub.)_
@@ -39,41 +37,19 @@ _([degit](https://yarn.pm/degit) automates starting projects using templates in 
 
 These are the files you'll find here. They're a reduced subset of the original _gatsby-starter-default_ package.
 
-##### / src / components /
+- [`src/components/Layout.tsx`](/src/components/Layout.tsx) &mdash; Layout component
+- [`src/pages/404.tsx`](/src/pages/404.tsx) &mdash; Not found page
+- [`src/pages/index.tsx`](/src/pages/index.tsx) &mdash; Home page
+- [`gatsby-config.js`](/gatsby-config.js) &mdash; Gatsby config
+- [`package.json`](/package.json) &mdash; Package manifest
 
-- [Layout.js](/src/components/Layout.js) - Layout component
+This is based off the default starter pack with a lot of simplifications:
 
-##### / src / images /
-
-- [icon.png](/src/images/icon.png) - Site icon
-
-##### / src / pages /
-
-- [404.js](/src/pages/404.js) - Not found page
-- [index.js](/src/pages/index.js) - Home page
-
-##### /
-
-- [gatsby-config.js](/gatsby-config.js) - Gatsby config
-- [package.json](/package.json) - Package manifest
-
-## About this boilerplate
-
-This is the same as the default starter pack, except with these omissions:
-
-- All default CSS has been removed.
-- Extraneous config files have been removed.
-- Service workers support (`gatsby-plugin-offline`) has been removed.
-- Responsive image support (`gatsby-image`) has been removed.
-- Image optimization (`gatsby-plugin-sharp`) has been removed.
-
-These things have been added:
-
-- Normalize/reset CSS ([sanitize.css](https://yarn.pm/sanitize.css)) has been added.
-
-Some of these omissions (and other features) can be added back as you need them:
-
-- [Blogging support](https://github.com/rstacruz/gatsby-starter-simplified/pull/3)
-- [Responsive images](https://github.com/rstacruz/gatsby-starter-simplified/pull/4)
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
+- ❌ Removed: all default CSS
+- ❌ Removed: Extraneous config files
+- ❌ Removed: Service workers support (`gatsby-plugin-offline`)
+- ❌ Removed: Responsive image support (`gatsby-image`)
+- ❌ Removed: Image optimization (`gatsby-plugin-sharp`)
+- ❌ Removed: Mobile manifest (`gatsby-plugin-manifest`)
+- ➕ Added: Normalize/reset CSS ([`sanitize.css`](https://yarn.pm/sanitize.css))
+- ➕ Added: TypeScript ([`gatsby-plugin-typescript`](https://yarn.pm/gatsby-plugin-typescript))
