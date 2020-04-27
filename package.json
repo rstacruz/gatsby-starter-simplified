@@ -1,16 +1,16 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-starter-simplified",
+  "description": "Gatsby simplified starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nobody <nobody@example.com>",
   "dependencies": {
-    "gatsby": "^2.18.21",
-    "gatsby-plugin-manifest": "^2.2.37",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-source-filesystem": "^2.1.46",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
+    "gatsby": "^2.21.0",
+    "gatsby-plugin-manifest": "^2.4.0",
+    "gatsby-plugin-react-helmet": "^3.3.0",
+    "gatsby-source-filesystem": "^2.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
     "sanitize.css": "^11.0.0"
   },
   "keywords": [
@@ -25,10 +25,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/rstacruz/gatsby-starter-simplified"
   }
 }
