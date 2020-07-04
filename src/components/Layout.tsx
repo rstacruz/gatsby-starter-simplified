@@ -12,16 +12,11 @@ const Layout = ({ children }: Props) => {
 
   return (
     <>
-      <Helmet
-        title={siteMetadata.title}
-        meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
-        ]}
-      >
+      <Helmet>
         <html lang='en' />
+        <title>{siteMetadata.title}</title>
       </Helmet>
-      {/*<h1>{siteMetadata.title}</h1>*/}
+
       <div>{children}</div>
     </>
   )
